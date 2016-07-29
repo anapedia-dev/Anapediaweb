@@ -7,7 +7,7 @@ anapedia dikhususkan untuk anak SD (usia kisaran 7-12)
 
 
 **************
-The Advantages
+Kelebihan Anapedia 
 **************
 
 Disertai dengan fitur pencarian yang dapat mengoreksi ejaan, sehingga meminimalisir kesalahan input yang biasa dilakukan oleh anak-anak.
