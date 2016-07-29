@@ -1,14 +1,26 @@
 ###################
-Apa itu Anapedia
+APa itu Anapedia?
 ###################
 
-Anapedia is a website that is devoted to children's encyclopedia .
-anapedia devoted to elementary school children ( age range 7-12 )
+Anapedia adalah website ensiklopedia yang dikhususkan untuk anak.
+anapedia dikhususkan untuk anak SD (usia kisaran 7-12)
+
+
+**************
+The Advantages
+**************
+
+Disertai dengan fitur pencarian yang dapat mengoreksi ejaan, sehingga meminimalisir kesalahan input yang biasa dilakukan oleh anak-anak.
+
+-  `Bahasa yang sederhana`_
+-  `Disertai dengan gambar sehingga lebih menarik`_
+-  `Disertai dengan ilustrasi yang unik untuk beberapa halaman sesuai dengan kebutuhan konten`_
+-  `Disertai dengan fitur pencarian yang dapat mengoreksi ejaan `_
 
 
 *******************
-Release Information
+Rilis Informasi
 *******************
 
-This repo contains in-development code for future releases. please visit the `Anapedia
-<https://Anapedia.org>`_ page for lastest info.
+Repo ini berisi pengembangan kode untuk rilis mendatang . kunjungi ` Halaman
+<Https://Anapedia.org>`_ Anapedia untuk info terbaru .
