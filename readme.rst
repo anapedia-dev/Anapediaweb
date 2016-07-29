@@ -1,5 +1,5 @@
 ###################
-APa itu Anapedia?
+Apa itu Anapedia?
 ###################
 
 Anapedia adalah website ensiklopedia yang dikhususkan untuk anak.
