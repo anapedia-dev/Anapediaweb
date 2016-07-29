@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anapedia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="<?=base_url(); ?>assets/flat-ui/dist/css/vendor/bootstrap/css/bootstrap.min.css">
+	<!--FlatUI-->
+	<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>assets/flat-ui/dist/css/flat-ui.min.css">
+
+	<link rel="stylesheet" type="text/css" href="<?=base_url(); ?>assets/font-awesome/css/font-awesome.min.css">
+	<style type="text/css">
+		@font-face{
+			font-family: "abeat";
+			src: url(<?=base_url(); ?>assets/fonts/ABEAKRG.TTF) format("truetype");
+		}
+		input[type=text], .input-group-btn>.btn{
+			border-color: #89C4F4;
+		}
+		.category-group{
+			display: block;
+		}
+		.category-group a{
+			border: 1px solid #89C4F4;
+			display: inline-block;
+			font-size: 15px;
+			letter-spacing: 0.5px;
+			margin-bottom: 10px;
+			margin-right: 5px;
+			padding: 5px 10px;
+		}
+		.category:hover{
+			border-color: #DEDEDE;
+		}
+		/* Sticky footer styles
+		-------------------------------------------------- */
+		html {
+			position: relative;
+			min-height: 100%;
+		}
+		input{
+		}
+		body {
+			/* Margin bottom by footer height */
+			margin-bottom: 60px;
+		}
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			/* Set the fixed height of the footer here */
+			height: auto;
+			background-color: #f5f5f5;
+			back
+			color: #6E6666;
+			border-top: 1px solid #DEDEDE;
+		}
+		.footer a{color: #6E6666;font-weight: normal;}
+
+		/*Color category*/
+		.ipa{color:;border-color:;}
+		.ips{color:;border-color:;}
+		.bahasa{color:;border-color:;}
+		.agama{color:;border-color:;}
+		.olahraga{color:;border-color:;}
+		.kesenian{color:;border-color:;}
+		.mulok{color:;border-color:;}
+	</style>
+</head>
+<body style="background: url(bg.png)">
+<a href="" style="font-size: 2em; margin-right: 20px;" class="pull-right" title="Admin Login"><i class="fa fa-user"></i></a>
+	<div class="container">
+		<div class="panel-body" style="margin-top: 50px;">
+
+			<!--Image-->
+			<div class="row">
+				<div class="col-lg-4 col-xs-3"></div>
+				<div class="col-lg-4 col-xs-6 text-center"> 
+					<a href="">
+						<img src="<?=base_url(); ?>assets/img/logo.png" class="img-responsive" style="width: 200px; margin-left: auto; margin-right: auto;">
+					</a>
+					<a href="" class="text-center" style="font-size: 1em;">Pocket Pembelajaran Anak</a>
+				</div>
+				<div class="col-lg-4 col-xs-3"></div>
+			</div>
+			<!--/Image-->
+
+			<!--Input Area-->
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8 col-xs-12">
+					<br>
+					<form action="<?=site_url(); ?>/Pencarian/pencarian" method="post" role="form">
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<span class="input-group-btn">
+								<button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+								</span>
+							</div><!-- /input-group -->
+						</div>
+						<div class="form-group text-center">
+							<div class="category-group">
+								<!-- new item, add new css color class -->
+								<a href="" class="ipa">IPA</a>
+								<a href="" class="ips">IPS</a>
+								<a href="" class="bahasa">Bahasa</a>
+								<a href="" class="agamaa">Agama</a>
+								<a href="" class="olahraga">Olahraga</a>
+								<a href="" class="kesenian">Kesenian</a>
+								<a href="" class="mulok">Muatan Lokal</a>
+							</div>
+						</div>
+						<div class="form-group text-center">
+							<a href="" style="font-size: 0.8em;">Baru pertama kali ke sini ?</a>
+						</div>
+					</form>
+
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+			<!--/Input Area-->
+		</div>
+	</div>
+
+	<!-- <footer class="footer">
+		<div class="container-fluid">
+				<p style="font-size: 0.9em; margin: 9px 0">
+				<a href="" data-toggle="tooltip" title="">Tentang Anapedia</a>&emsp;&emsp;<a href="">Kontributor</a>&emsp;&emsp;<a href="">Privacy & Policy</a>
+				<b class="pull-right" style="font-weight: normal;">&#9400;2016 AnaPedia.org</b>
+			</p>
+		</div>
+	</footer> -->
+
+	<!--JQuery-->
+	<script src="<?=base_url(); ?>assets/flat-ui/dist/js/vendor/jquery.min.js"></script>
+	<!--FlatUI-->
+	<script src="<?=base_url(); ?>assets/flat-ui/dist/js/flat-ui.min.js"></script>
+
+	<!--ToolTip-->
+	<script>
+		$(function () {
+			$('[data-toggle=tooltip]').tooltip();
+		});
+	</script>
+	
+	<!--InputFocus-->
+	<script>
+		$(function () {
+			// Focus state for append/prepend inputs
+			$('.input-group').on('focus', '.form-control', function () {
+				$(this).closest('.input-group, .form-group').addClass('focus');
+			}).on('blur', '.form-control', function () {
+				$(this).closest('.input-group, .form-group').removeClass('focus');
+			});
+		});
+	</script>
+</body>
+</html>
